@@ -20,6 +20,10 @@ content: "";
 
 }
 
+#fitness{
+    color: rgb(202, 199, 19);
+
+}
 
 .left{
 display: inline block;
