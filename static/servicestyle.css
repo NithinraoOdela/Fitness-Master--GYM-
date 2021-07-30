@@ -1,0 +1,291 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
+    /* background: url(../static/3.jpg) no-repeat; */
+    /* <img src="../static/3.jpg" id="cla"  alt=""> */
+
+
+}
+.container::before{
+margin:0px;
+padding: 0px;
+background: url(../static/3.jpg) no-repeat center center/cover;
+opacity: 0.88;
+z-index: -1;
+width: 99.99vw;
+height: 100vh;
+left: 0;
+position: absolute;
+top: 0;
+content: "";
+/* opacity: 0.95; */
+/* border-image-width: 9%; */
+/* width: 500px; */
+
+
+}
+
+
+
+.mo{
+    width: 22px;
+}
+
+#cla{
+    width: 100vw;
+    height: 100vh;
+}
+
+#submit{
+    margin-top: 9px;
+    background-color: black;
+    color: white;
+    width: 192px;
+    border: white solid 1px;
+    border-radius: 4px;
+}
+#btn{
+    margin-top: 9px;
+    background-color: black;
+    color: white;
+    width: 192px;
+    border: white solid 1px;
+    border-radius: 4px;
+    }
+
+#btn:hover{
+    background-color: rgb(255, 244, 244);
+    color: rgb(0, 0, 0);
+
+}
+.submit:hover{
+    background-color: blue;
+}
+
+.left{
+display: inline block;
+
+margin: auto;
+width: 110px;
+padding: 12px;
+text-align: center;
+margin-top: -12px;
+float: left;
+}
+#img{
+filter: invert(100%);
+width: 70px;
+float: left;
+
+display: inline block;
+margin-left:19px ;
+margin-top: 7px;
+
+}
+#name{
+    color: white;
+    padding-top: 48px;
+    font-size: 18px;
+    margin-left: 25px;
+    }
+
+
+.nav{
+
+margin: auto;
+width: 900px;
+display: inline block;
+/* background-color: yellow; */
+margin-left: 550px;
+
+
+}
+.label{
+color: white;
+}
+.nav ul{
+overflow: auto;
+display: inline block;
+}
+.nav li{
+float: left;
+text-align: center;
+text-decoration: none;
+text-justify: auto;
+list-style: none;
+display: inline block;
+
+}
+
+.nav2 {
+
+margin: auto;
+width: 500px;
+margin-top: -45px;
+float: right;
+
+display: inline block;
+
+
+}
+.n
+
+.nav2 ul{
+overflow: auto;
+display: inline block;
+
+}
+.nav2 li{
+float:right;
+position: relative;
+margin-top: -10px;
+text-align: center;
+text-decoration: none;
+text-justify: auto;
+list-style: none;
+display: inline block;
+
+}
+
+button{
+    background-color: black;
+    padding: 5px;
+    margin-right: 25px;
+    border: 2px solid white;
+    border-radius: 7px;
+    }
+button:hover{
+color: rgb(114, 114, 114);
+
+}
+
+a:hover{
+
+    color: rgb(202, 199, 19);
+
+}
+#services{
+    color: rgb(202, 199, 19);
+
+}
+
+a{
+    padding: 19px;
+    color: white;
+
+}
+
+/* ----------------------- */
+
+.boss{
+    border: solid 5px rgb(0, 0, 0);
+    margin: auto;
+    width: 600px;
+    border-radius: 9px;
+    /* text-align: center; */
+    float: left;
+    margin-top: 150px;
+    margin-left: 402px;
+    /* background-color: blanchedalmond; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+}
+.boss::before{
+
+margin:0px;
+padding: 0px;
+/* background: url(../static/3.jpg) no-repeat center center/cover; */
+background-color: rgb(0, 0, 0);
+opacity: 0.18;
+z-index: -1;
+width: 600px;
+height: 484px;
+/* left: 0; */
+position: absolute;
+/* top: 0; */
+content: "";
+
+}
+
+.space{
+    font-size: 19px;
+    margin-left: -29px;
+    padding: 0px 8px;
+}
+.space::before{
+    background-color: rgb(0, 0, 0);
+    /* margin:0px; */
+    /* padding: 0px; */
+    opacity: 0.18;
+    z-index: -1;
+    left: 0;
+    position: absolute;
+    top: 0;
+    content: "";
+    width: 451px;
+    height: 61px;
+    margin-left: 550px;
+    border-radius: 9px;
+    
+}
+.nav2{
+    margin-top: -49px;
+}
+
+
+.sub{
+    /* background-color: blanchedalmond; */
+    /* padding-left: 115px; */
+    text-align: center;
+    
+}
+
+h2{
+    color: white;
+}
+
+
+.action{
+    padding: 12px;
+    /* border-radius: 1px; */
+
+}
+
+.label{
+    color: white;
+}
+
+
+#name{
+    color: white;
+    padding-top: 48px;
+    font-size: 19px;
+}
+
+::placeholder:hover{
+    color: rgb(0, 0, 0);
+    display: none;
+}
+
+:placeholder-shown{
+    text-align: center;
+    border-radius: 4px;
+    width: 192px;
+    background-color: rgb(255, 255, 255);
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
+    color: rgb(234, 238, 15);
+}
+
+.label{
+    /* color: rgb(234, 238, 15); */
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
+
+}
+

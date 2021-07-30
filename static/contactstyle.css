@@ -1,0 +1,312 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+.container{
+margin:0px;
+padding: 0px;
+background-color: #004953;
+opacity: 0.98;
+z-index: -1;
+width: 99.99vw;
+height: 100vh;
+left: 0;
+position: absolute;
+top: 0;
+content: "";
+/* opacity: 0.95; */
+/* border-image-width: 9%; */
+/* width: 500px; */
+
+
+}
+a:hover{
+
+    color: rgb(202, 199, 19);
+
+}
+
+
+.left{
+display: inline block;
+
+margin: auto;
+width: 110px;
+padding: 12px;
+text-align: center;
+margin-top: -12px;
+float: left;
+}
+#img{
+filter: invert(100%);
+width: 70px;
+float: left;
+
+display: inline block;
+margin-left:19px ;
+margin-top: 7px;
+
+}
+#name{
+    color: white;
+    padding-top: 48px;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.space{
+    font-size: 19px;
+    margin-left: -29px;
+    padding: 0px 8px;
+}
+.jj{
+    margin-top: 4px;
+    /* position: absolute; */
+    /* margin-left: 323px; */
+    background-color: magenta;
+}
+.space::before{
+    background-color: rgb(0, 0, 0);
+    /* margin:0px; */
+    /* padding: 0px; */
+    opacity: 0.18;
+    z-index: -1;
+    left: 0;
+    position: absolute;
+    top: 0;
+    content: "";
+    width: 451px;
+    height: 61px;
+    margin-left: 550px;
+    border-radius: 9px;
+    
+}
+
+
+
+.nav{
+
+margin: auto;
+width: 900px;
+display: inline block;
+/* background-color: yellow; */
+margin-left: 550px;
+
+
+}
+.label{
+color: white;
+}
+.nav ul{
+overflow: auto;
+display: inline block;
+}
+.nav li{
+float: left;
+text-align: center;
+text-decoration: none;
+text-justify: auto;
+list-style: none;
+display: inline block;
+
+}
+
+.nav2 {
+
+margin: auto;
+width: 500px;
+margin-top: -45px;
+float: right;
+
+display: inline block;
+
+
+}
+.n
+
+.nav2 ul{
+overflow: auto;
+display: inline block;
+
+}
+.nav2 li{
+float:right;
+position: relative;
+margin-top: -10px;
+text-align: center;
+text-decoration: none;
+text-justify: auto;
+list-style: none;
+display: inline block;
+
+}
+
+button{
+    background-color: black;
+    padding: 5px;
+    margin-right: 25px;
+    border: 2px solid white;
+    border-radius: 7px;
+    }
+button:hover{
+color: rgb(114, 114, 114);
+
+}
+
+
+
+a{
+    padding: 19px;
+    color: white;
+
+}
+
+a:hover{
+
+    color: rgb(202, 199, 19);
+
+}
+
+#contact{
+    color: rgb(202, 199, 19);
+
+}
+/* -------------------------------- */
+.footer
+{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 99.9vw;
+    text-align: center;
+    height: 155px;
+    z-index: -1;
+}
+.foot{
+    background-color: rgb(0, 0, 0);
+    height: 25px;
+    margin-top: 12.4vw;
+}
+.footer h1{
+    margin-top: 15px;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+}
+
+.section{
+    background-color:#00e8f013;
+    /* margin-top: 155px; */
+    width: 45vw;
+    margin-left: -22px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* padding-top:15px ; */
+    width: 555px;
+    border-radius: 5px;
+    border: solid;
+    margin-right: 22px;
+    /* border: solid rgb(255, 255, 255) 9px; */
+    border-radius: 4px;
+    height: 350px;
+    justify-content: center;
+
+}
+
+#cc{
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    width: 85vw;
+    margin-top: 82px;
+    height: 460px;
+    margin-left: 9vw;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.icons{
+    /* background-color: yellow; */
+    margin-top: -72px;
+    text-align: center;
+
+}
+
+/* .sec{
+    width: 2vw;
+    height: 50vh;
+} */
+
+.c1{
+    width: 555px;
+    margin-left: 22px;
+    border: white 9px solid;
+    border-radius: 4px; 
+    
+}
+
+#nn1{
+    padding: 0px 10px;
+    
+
+    
+    
+}
+#nn1:hover{
+    
+    color: #4FCE5D;
+    
+    
+    
+    
+}
+#nn2{
+    padding: 0px 10px;
+    
+}
+#nn2:hover{
+    color: #3b5998;
+    
+    
+}
+#nn3{
+    padding: 0px 10px;
+    
+}
+#nn3:hover{
+    color: #bc2a8d;
+    
+    
+    
+}
+#nn4:hover{
+    color: #0099ff;
+    
+    
+    
+    
+}
+#nn5:hover{
+    color: #f10303;
+    
+    
+    
+}
+#nn6:hover{
+    color: #62ee04;
+   
+    
+    
+    
+}
+h4{
+    color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+}
+.cont a{
+    color: black;
+    
+}
